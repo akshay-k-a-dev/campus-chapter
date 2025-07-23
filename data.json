@@ -4,18 +4,40 @@
     "about": "The MuLearn Mamoc Chapter focuses on implementing a culture of peer learning and micro learning. It exists to provide a platform where individuals can develop essential skills through collaborative learning and bite-sized educational resources. The goal is to make learning more accessible, interactive, and consistent, encouraging participants to learn from each other and grow in a structured, yet flexible, manner.",
     "events": [
         {
+            "month": "Oct",
+            "date": "27",
+            "head": "Event 1 ",
+            "para": "Orientation for EXECOME",
+            "img": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/events/ori.jpeg"
+        },
+        {
+            "month": "Dec",
+            "date": "12",
+            "head": "Event 2",
+            "para": "Induction program for mulearners.",
+            "img": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/events/ind.jpeg"
+        },
+        {
             "month": "Dec",
             "date": "29",
-            "head": "Event 1",
+            "head": "Event 3",
             "para": "Chritmas wishing app challenge.",
             "img": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/events/webapp.jpg"
         },
- {
-            "month": "Oct",
-            "date": "27",
-            "head": "Event 2",
-            "para": "Orientation for EXECOME",
-            "img": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/events/ori.jpg"
+        {
+            "month": "Mar",
+            "date": "13",
+            "head": "Event 4",
+            "para": "Grab your super powers -cursor.",
+            "img": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/events/gysp.webp"
+        },
+       
+         {
+            "month": "Apr",
+            "date": "15",
+            "head": "Event 4",
+            "para": "Nature reel making competition.",
+            "img": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/events/reels.jpg"
         }
     ],
     "gallery": {
