@@ -9,6 +9,13 @@
             "head": "Event 1",
             "para": "Chritmas wishing app challenge.",
             "img": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/events/webapp.jpg"
+        },
+ {
+            "month": "Oct",
+            "date": "27",
+            "head": "Event 2",
+            "para": "Orientation for EXECOME",
+            "img": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/events/ori.jpg"
         }
     ],
     "gallery": {
