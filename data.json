@@ -1,46 +1,19 @@
 {
-    "collegeCode": "SNT",
+    "collegeCode": "MAMOC",
 
-    "college": "Sree Narayana Guru Institute of Science and Technology",
+    "college": " Muhammed Abdurahiman Memorial Orphanage (MAMO) College, Mukkam ",
 
-    "about": "Lorem ipsum dolor sit amet consectetur adipiscing, elit ultricies imperdiet neque mattis, orci pellentesque turpis facilisi leo. Laoreet donec tortor sagittis habitasse eleifend conubia quis lacinia accumsan auctor, montes morbi natoque convallis integer aliquam posuere eu nulla, proin fames dapibus mattis sociis ligula blandit quam potenti. Himenaeos fringilla tincidunt aptent porta ultrices velit dignissim senectus purus suspendisse, fames eleifend feugiat nam hac montes semper pretium potenti, viverra curae netus volutpat cras per eu cubilia primis.",
-
-    "events": [
+    "about": "The MuLearn Mamoc Chapter focuses on implementing a culture of peer learning and micro learning. It exists to provide a platform where individuals can develop essential skills through collaborative learning and bite-sized educational resources. The goal is to make learning more accessible, interactive, and consistent, encouraging participants to learn from each other and grow in a structured, yet flexible, manner.",
+	
+	"events": [
         {
-            "month": "Sep",
+            "month": "Dec",
             "date": "29",
             "head": "Event 1",
-            "para": "Webinar on Engineering and Industrial Services division of TCS.",
+            "para": "Chritmas wishing app challenge.",
             "img": "https://wallpaperaccess.com/full/1642272.jpg"
         },
-        {
-            "month": "Sep",
-            "date": "27",
-            "head": "Opportunities in TCS EIS",
-            "para": "Webinar on Engineering and Industrial Services division of TCS.",
-            "img": "https://wallpaperaccess.com/full/1642272.jpg"
-        },
-        {
-            "month": "Sep",
-            "date": "26",
-            "head": "Opportunities in TCS EIS",
-            "para": "Webinar on Engineering and Industrial Services division of TCS.",
-            "img": "https://wallpaperaccess.com/full/1642272.jpg"
-        },
-        {
-            "month": "Sep",
-            "date": "25",
-            "head": "Opportunities in TCS EIS",
-            "para": "Webinar on Engineering and Industrial Services division of TCS.",
-            "img": "https://wallpaperaccess.com/full/1642272.jpg"
-        },
-        {
-            "month": "Sep",
-            "date": "25",
-            "head": "Opportunities in TCS EIS",
-            "para": "Webinar on Engineering and Industrial Services division of TCS.",
-            "img": "https://wallpaperaccess.com/full/1642272.jpg"
-        }
+        
     ],
 
     "gallery": {
@@ -75,48 +48,48 @@
 
     "team": {
         "staffAdvisor": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
+            "name": "Dr AJMAL MUEEN M. A.",
+            "image": "https://www.mamocollege.org/admin/academic/upload/users/16.jpg"
         },
         "campusLead": {
-            "name": "Elon Musk",
+            "name": "Akshay K A",
             "image": "https://th.bing.com/th/id/OIP.DjyPSeO-t7bK2agoLSYJzgHaHa?pid=ImgDet&rs=1"
         },
         "campusCoLead": {
-            "name": "Enric S Neelamkavil",
+            "name": "Jasir E",
             "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
         },
         "treasurer": {
-            "name": "Enric S Neelamkavil",
+            "name": "Minsha ",
             "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
         },
         "technicalLead": {
-            "name": "Enric S Neelamkavil",
+            "name": "Asheed Eliyangod",
             "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
         },
         "mediaLead": {
-            "name": "Enric S Neelamkavil",
+            "name": "Muhammed Akmal",
             "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
         },
         "contentLead": {
-            "name": "Enric S Neelamkavil",
+            "name": "Vaishnav Velayudhan Mk",
             "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
         },
         "operationLead": {
-            "name": "Enric S Neelamkavil",
+            "name": "Muqsith PCM",
             "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
         }
     },
 
-    "discordLink": "",
+    "discordLink": "https://discord.gg/NAvdYudX",
 
-    "whatsAppLink": "",
+    "whatsAppLink": "https://chat.whatsapp.com/KFfvhmzfO1WJMtvjdUHoJZ",
 
-    "email": "mulearn@cce.edu.in",
+    "email": "mulearn@mamocollege.org",
 
-    "linkedIn": "",
+    "linkedIn": "https://www.linkedin.com/company/mulearn-mamoc/",
 
-    "instagram": "",
+    "instagram": "https://www.instagram.com/mulearn.mamoc/",
 
     "twitter": "",
 
