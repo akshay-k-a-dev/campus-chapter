@@ -83,7 +83,7 @@
         },
         "treasurer": {
             "name": "Minsha",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
+            "image": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/minsha.jpeg"
         },
         "technicalLead": {
             "name": "Asheed Eliyangod",
@@ -95,7 +95,7 @@
         },
         "contentLead": {
             "name": "Vaishnav Velayudhan Mk",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
+            "image": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/vaishnav.jpg"
         },
         "operationLead": {
             "name": "Muqsith PCM",
