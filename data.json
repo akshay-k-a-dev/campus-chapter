@@ -44,13 +44,7 @@
             "date": "27",
             "head": "Event 5",
             "para": "Call for media lead.",
-            "img": "{
-            "month": "Apr",
-            "date": "15",
-            "head": "Event 4",
-            "para": "Nature reel making competition.",
-            "img": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/events/reels.jpeg"
-        }"
+            "img": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/events/mediacall.jpeg"
         }
     ],
     "gallery": {
