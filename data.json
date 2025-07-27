@@ -43,7 +43,7 @@
     "gallery": {
         "row1": [
             {
-                "image": "https://mulearn.org/assets/home/illustration.webp"
+                "image": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/memories/kotech.jpeg"
             },
             {
                 "image": "https://mulearn.org/assets/home/Chart.webp"
@@ -54,7 +54,7 @@
         ],
         "row2": [
             {
-                "image": "https://th.bing.com/th/id/OIP.p5zC9uLm5ByGSy8gYI0McAHaE8?pid=ImgDet&rs=1"
+                "image": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/memories/permute.jpeg"
             },
             {
                 "image": "https://images.squarespace-cdn.com/content/v1/5c710438b914490d5769a64f/b4fb2b4f-5f95-41a1-9416-d156d0ae273f/Most+Famous+Astrologer+in+the+World.jpg"
