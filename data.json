@@ -45,7 +45,14 @@
             "head": "Event 5",
             "para": "Call for media lead.",
             "img": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/events/mediacall.jpeg"
+        },{
+            "month": "Jul",
+            "date": "30",
+            "head": "Event 6",
+            "para": "Website Luanch.",
+            "img": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/events/website.jpeg"
         }
+        
     ],
     "gallery": {
         "row1": [
