@@ -1,17 +1,17 @@
 .events {
-  max-height: 700px;
+  /* Removed max-height: 700px; */
   width: 100%;
   padding: 0rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
+  margin-bottom: 3rem; /* Added this line to prevent overlap */
 }
 
 .events h2 {
   text-align: center;
   align-self: center;
-
   color: #ae59ff;
   font-size: 2rem;
 }
@@ -71,7 +71,6 @@
 }
 
 .card.large img {
-  /* height: 400px; */
   height: 100%;
   width: 100%;
   border-radius: 1rem;
@@ -133,7 +132,8 @@
 
 @media screen and (max-width: 880px) {
   .events {
-    max-height: none;
+    /* Already fixed below 880px */
+    padding: 0rem 2rem;
   }
 
   .innerDiv {
@@ -184,7 +184,7 @@
   }
 }
 
-@media(width<345px){
+@media(width < 345px) {
   .card .text strong {
     font-size: .6rem;
   }
