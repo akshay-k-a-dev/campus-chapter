@@ -212,3 +212,50 @@
     font-size: 0.55rem;
   }
 }
+/* ✅ Fix scroll area height to show only 5 items */
+.subContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-height: 650px; /* Based on 5 cards ~120-130px each */
+  overflow-y: auto;
+  padding-right: 5px;
+  scrollbar-width: thin;
+  scrollbar-color: #d6abfe transparent;
+}
+
+.subContent::-webkit-scrollbar {
+  width: 6px;
+}
+
+.subContent::-webkit-scrollbar-thumb {
+  background-color: #d6abfe;
+  border-radius: 4px;
+}
+
+.subContent::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Ensure small cards don’t shrink and break scroll height calc */
+.card.small {
+  min-height: 120px;
+  flex-shrink: 0;
+}
+
+/* ✅ Responsive fix: remove scroll on small screens */
+@media screen and (max-width: 880px) {
+  .subContent {
+    max-height: none;
+    overflow-y: visible;
+    scrollbar-width: none;
+  }
+
+  .subContent::-webkit-scrollbar {
+    display: none;
+  }
+
+  .card.small {
+    min-height: auto;
+  }
+}
