@@ -1,12 +1,11 @@
 .events {
-  /* Removed max-height: 700px; */
   width: 100%;
   padding: 0rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
-  margin-bottom: 3rem; /* Added this line to prevent overlap */
+  margin-bottom: 3rem; /* Prevents overlap with next section */
 }
 
 .events h2 {
@@ -19,18 +18,17 @@
 .innerDiv {
   display: flex;
   width: 100%;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 20px;
-  height: 100%;
 }
 
 .card {
   display: flex;
   align-items: center;
-  box-shadow: 0px 0px 24.0251px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
   padding: 10px 10px;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .card .content {
@@ -61,6 +59,7 @@
   border-radius: 10px;
 }
 
+/* Large main event card */
 .card.large {
   max-width: 500px;
   width: 50%;
@@ -82,10 +81,11 @@
 }
 
 .card.large .text span {
-  margin-top: .3rem;
+  margin-top: 0.3rem;
   font-size: 1rem;
 }
 
+/* Small cards (in scroll list) */
 .card.small {
   border-radius: 1rem;
   max-width: 700px;
@@ -96,18 +96,37 @@
 }
 
 .card.small .text span {
-  margin-top: .3rem;
+  margin-top: 0.3rem;
   font-size: 1rem;
 }
 
+/* ✅ Scrollable container */
 .subContent {
   display: flex;
-  align-items: center;
   flex-direction: column;
-  gap: .5rem;
-  justify-content: space-between;
+  gap: 0.5rem;
+  max-height: 600px; /* Only shows 5 items approximately */
+  overflow-y: auto;
+  padding-right: 5px;
+  scrollbar-width: thin;
+  scrollbar-color: #d6abfe transparent;
 }
 
+/* Chrome scrollbar styling (optional) */
+.subContent::-webkit-scrollbar {
+  width: 6px;
+}
+
+.subContent::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.subContent::-webkit-scrollbar-thumb {
+  background-color: #d6abfe;
+  border-radius: 3px;
+}
+
+/* Responsive adjustments */
 @media (max-width: 1050px) {
   .card .date {
     font-size: 23px;
@@ -132,7 +151,6 @@
 
 @media screen and (max-width: 880px) {
   .events {
-    /* Already fixed below 880px */
     padding: 0rem 2rem;
   }
 
@@ -169,14 +187,14 @@
   }
 
   .card .text strong {
-    font-size: .9rem;
-    margin-bottom: .1rem;
+    font-size: 0.9rem;
+    margin-bottom: 0.1rem;
   }
 
   .card.large .text span,
   .card.small .text span {
-    font-size: .75rem;
-    margin-top: .1rem;
+    font-size: 0.75rem;
+    margin-top: 0.1rem;
   }
 
   .card img {
@@ -184,13 +202,13 @@
   }
 }
 
-@media(width < 345px) {
+@media (width < 345px) {
   .card .text strong {
-    font-size: .6rem;
+    font-size: 0.6rem;
   }
 
   .card.large .text span,
   .card.small .text span {
-    font-size: .55rem;
+    font-size: 0.55rem;
   }
 }
