@@ -35,35 +35,35 @@
          {
             "month": "Apr",
             "date": "15",
-            "head": "Event 4",
+            "head": "Event 5",
             "para": "Nature reel making competition.",
             "img": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/events/reels.jpeg"
         },
     {
             "month": "Jul",
             "date": "27",
-            "head": "Event 5",
+            "head": "Event 6",
             "para": "Call for media lead.",
             "img": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/events/mediacall.jpeg"
         },
         {
             "month": "Jul",
             "date": "30",
-            "head": "Event 6",
+            "head": "Event 7",
             "para": "Website Luanch.",
             "img": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/events/website.jpeg"
         },
         {
             "month": "Jul",
             "date": "30",
-            "head": "Event 7",
+            "head": "Event 8",
             "para": "Luanchpad introduction.",
             "img": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/events/lp.jpeg"
         },
         {
             "month": "Aug",
             "date": "6",
-            "head": "Event 8",
+            "head": "Event 9",
             "para": "0 to 1 ,mulearn.",
             "img": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/events/0to1.jpeg"
         }
