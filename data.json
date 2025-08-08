@@ -59,6 +59,13 @@
             "head": "Event 7",
             "para": "Luanchpad introduction.",
             "img": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/events/lp.jpeg"
+        },
+        {
+            "month": "Aug",
+            "date": "6",
+            "head": "Event 8",
+            "para": "0 to 1 ,mulearn.",
+            "img": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/events/0to1.jpeg"
         }
         
     ],
@@ -87,8 +94,8 @@
         "studentsCount": 55,
         "learningCircles": 10,
         "InterestGroups": 5,
-        "karmaEarned": 33000,
-        "rank": 77
+        "karmaEarned": 37000,
+        "rank": 75
     },
     "team": {
         "staffAdvisor": {
@@ -121,6 +128,10 @@
         },
         "operationLead": {
             "name": "Muqsith PCM",
+            "image": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/muqsith.jpeg"
+        },
+         "designLead": {
+            "name": "MUhammed Yasin",
             "image": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/muqsith.jpeg"
         }
     },
