@@ -1,235 +1,105 @@
 .events {
-  width: 100%;
-  padding: 0rem 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 1rem;
-  margin-bottom: 3rem; /* Prevents overlap with next section */
+  padding: 2rem;
+  background-color: #f9f9f9;
 }
 
 .events h2 {
-  text-align: center;
-  align-self: center;
-  color: #ae59ff;
   font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #222;
 }
 
 .innerDiv {
   display: flex;
-  width: 100%;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 20px;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .card {
   display: flex;
   align-items: center;
-  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
-  padding: 10px 10px;
-  margin-bottom: 0.5rem;
+  gap: 1rem;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  transition: transform 0.2s;
 }
 
-.card .content {
-  display: flex;
-  align-items: center;
-}
-
-.card .date,
-.card .text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0px 10px;
-}
-
-.card .date {
-  font-size: 28px;
-  border-right: #d6abfe 5px solid;
-  text-transform: uppercase;
-}
-
-.card .text {
-  font-size: 18px;
+.card:hover {
+  transform: translateY(-4px);
 }
 
 .card img {
-  height: 110px;
-  border-radius: 10px;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 0 12px 12px 0;
 }
 
-/* Large main event card */
-.card.large {
-  max-width: 500px;
-  width: 50%;
-  border-radius: 1rem;
-  flex-wrap: wrap-reverse;
+.large {
+  flex-direction: row;
+  padding: 1rem 1.5rem;
+}
+
+.large img {
+  width: 200px;
+  height: 200px;
+  border-radius: 0 16px 16px 0;
+}
+
+.small {
+  flex-direction: row;
+  padding: 0.75rem 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.date {
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.date span {
+  display: block;
+  line-height: 1.2;
+}
+
+.text strong {
+  font-size: 1rem;
+  color: #333;
+}
+
+.text span {
+  display: block;
+  font-size: 0.875rem;
+  color: #666;
+  margin-top: 0.25rem;
+}
+
+.subContent {
+  max-height: 350px; /* Adjust as needed */
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
   gap: 1rem;
-  justify-content: space-evenly;
-}
-
-.card.large img {
-  height: 100%;
-  width: 100%;
-  border-radius: 1rem;
-  object-fit: contain;
-}
-
-.card .large .text {
-  max-width: 300px;
-}
-
-.card.large .text span {
-  margin-top: 0.3rem;
-  font-size: 1rem;
-}
-
-/* Small cards (in scroll list) */
-.card.small {
-  border-radius: 1rem;
-  max-width: 700px;
-}
-
-.card.small .text {
-  width: 75%;
-}
-
-.card.small .text span {
-  margin-top: 0.3rem;
-  font-size: 1rem;
-}
-
-/* ✅ Scrollable container */
-.subContent {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  max-height: 600px; /* Only shows 5 items approximately */
-  overflow-y: auto;
-  padding-right: 5px;
-  scrollbar-width: thin;
-  scrollbar-color: #d6abfe transparent;
-}
-
-/* Chrome scrollbar styling (optional) */
-.subContent::-webkit-scrollbar {
-  width: 6px;
-}
-
-.subContent::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.subContent::-webkit-scrollbar-thumb {
-  background-color: #d6abfe;
-  border-radius: 3px;
-}
-
-/* Responsive adjustments */
-@media (max-width: 1050px) {
-  .card .date {
-    font-size: 23px;
-  }
-
-  .card .text {
-    font-size: 15px;
-  }
-
-  .card.large img {
-    height: 360px;
-  }
-
-  .card img {
-    height: 90px;
-  }
-
-  .subContent {
-    height: 100%;
-  }
-}
-
-@media screen and (max-width: 880px) {
-  .events {
-    padding: 0rem 2rem;
-  }
-
-  .innerDiv {
-    flex-direction: column;
-  }
-
-  .card.large {
-    max-width: 400px;
-    width: 100%;
-  }
-
-  .card.small {
-    max-width: 550px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .events {
-    padding: 0rem 10px;
-  }
-
-  .card.large img {
-    height: auto;
-    width: 100%;
-  }
-
-  .card {
-    padding: 5px 10px;
-  }
-
-  .card .date {
-    font-size: 23px;
-  }
-
-  .card .text strong {
-    font-size: 0.9rem;
-    margin-bottom: 0.1rem;
-  }
-
-  .card.large .text span,
-  .card.small .text span {
-    font-size: 0.75rem;
-    margin-top: 0.1rem;
-  }
-
-  .card img {
-    height: 70px;
-  }
-}
-
-@media (width < 345px) {
-  .card .text strong {
-    font-size: 0.6rem;
-  }
-
-  .card.large .text span,
-  .card.small .text span {
-    font-size: 0.55rem;
-  }
-}
-/* ✅ Fix scroll area height to show only 5 items */
-.subContent {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  max-height: 650px; /* Based on 5 cards ~120-130px each */
-  overflow-y: auto;
-  padding-right: 5px;
-  scrollbar-width: thin;
-  scrollbar-color: #d6abfe transparent;
+  padding-right: 0.5rem; /* For scrollbar gap */
 }
 
 .subContent::-webkit-scrollbar {
-  width: 6px;
+  width: 8px;
 }
 
 .subContent::-webkit-scrollbar-thumb {
-  background-color: #d6abfe;
+  background: #ccc;
   border-radius: 4px;
 }
 
@@ -237,25 +107,29 @@
   background: transparent;
 }
 
-/* Ensure small cards don’t shrink and break scroll height calc */
-.card.small {
-  min-height: 120px;
-  flex-shrink: 0;
-}
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .innerDiv {
+    flex-direction: row;
+    gap: 2rem;
+  }
 
-/* ✅ Responsive fix: remove scroll on small screens */
-@media screen and (max-width: 880px) {
+  .large {
+    flex: 2;
+  }
+
   .subContent {
-    max-height: none;
-    overflow-y: visible;
-    scrollbar-width: none;
+    flex: 1;
+    max-height: 400px;
   }
 
-  .subContent::-webkit-scrollbar {
-    display: none;
+  .card img {
+    width: 100px;
+    height: 100px;
   }
 
-  .card.small {
-    min-height: auto;
+  .large img {
+    width: 180px;
+    height: 180px;
   }
 }
