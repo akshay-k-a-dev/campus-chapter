@@ -158,24 +158,6 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
-
-                    <div className={`${styles.team} ${styles.team9}`}>
-                        <div className={styles.team1Img}>
-                            <img
-                                className={styles.teamImageIndividual}
-                                src={data.team.designLead.image}
-                                loading="lazy"
-                            />
-                        </div>
-                        <div className={styles.teamNameDesignation}>
-                            <div className={styles.teamMemberName}>
-                                {data.team.designLead.name}
-                            </div>
-                            <div className={styles.teamMemberDesignation}>
-                                Design Lead
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
