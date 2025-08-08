@@ -1,7 +1,7 @@
 import styles from "./Team.module.css";
 import line from "./assets/line.png";
 import line2 from "./assets/line2.png";
-import data from "../../../data.json"
+import data from "../../../data.json";
 
 const Team = () => {
     return (
@@ -32,6 +32,7 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className={`${styles.team} ${styles.team2}`}>
                         <div className={styles.team1Img}>
                             <img
@@ -49,6 +50,7 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className={`${styles.team} ${styles.team3}`}>
                         <div className={styles.team1Img}>
                             <img
@@ -66,6 +68,7 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className={`${styles.team} ${styles.team4}`}>
                         <div className={styles.team1Img}>
                             <img
@@ -83,6 +86,7 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className={`${styles.team} ${styles.team5}`}>
                         <div className={styles.team1Img}>
                             <img
@@ -100,6 +104,7 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className={`${styles.team} ${styles.team6}`}>
                         <div className={styles.team1Img}>
                             <img
@@ -117,6 +122,7 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className={`${styles.team} ${styles.team7}`}>
                         <div className={styles.team1Img}>
                             <img
@@ -134,6 +140,7 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className={`${styles.team} ${styles.team8}`}>
                         <div className={styles.team1Img}>
                             <img
@@ -148,6 +155,24 @@ const Team = () => {
                             </div>
                             <div className={styles.teamMemberDesignation}>
                                 Operation Lead
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={`${styles.team} ${styles.team9}`}>
+                        <div className={styles.team1Img}>
+                            <img
+                                className={styles.teamImageIndividual}
+                                src={data.team.designLead.image}
+                                loading="lazy"
+                            />
+                        </div>
+                        <div className={styles.teamNameDesignation}>
+                            <div className={styles.teamMemberName}>
+                                {data.team.designLead.name}
+                            </div>
+                            <div className={styles.teamMemberDesignation}>
+                                Design Lead
                             </div>
                         </div>
                     </div>
