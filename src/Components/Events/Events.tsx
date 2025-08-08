@@ -26,7 +26,7 @@ const Events = () => {
 
         {/* Scrollable Sub Events List */}
         <div className={styles.subContent}>
-          {reversedEvents.slice(1, 6).map((event, index) => (
+          {reversedEvents.slice(1).map((event, index) => (
             <div className={`${styles.card} ${styles.small}`} key={index}>
               <div className={styles.content}>
                 <div className={styles.date}>
