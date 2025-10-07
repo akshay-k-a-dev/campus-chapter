@@ -74,6 +74,14 @@
             "para": "Typathon.",
             "img": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/events/type.jpg"
         }
+        ,
+        {
+            "month": "Sept",
+            "date": "29",
+            "head": "Event 11",
+            "para": "Smart India Hackathon Internals.",
+            "img": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/events/sih.png"
+        }
         
     ],
     "gallery": {
@@ -101,8 +109,8 @@
         "studentsCount": 67,
         "learningCircles": 10,
         "InterestGroups": 5,
-        "karmaEarned": 40000,
-        "rank": 71
+        "karmaEarned": 44000,
+        "rank": 70
     },
     "team": {
         "staffAdvisor": {
