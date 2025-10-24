@@ -81,6 +81,13 @@
             "head": "Event 11",
             "para": "Smart India Hackathon Internals.",
             "img": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/events/SIH.png"
+        },
+        {
+            "month": "Oct",
+            "date": "20",
+            "head": "Event 12",
+            "para": "Happy Diwali.",
+            "img": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/events/diwali.jpg"
         }
         
     ],
