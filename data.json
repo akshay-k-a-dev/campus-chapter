@@ -94,6 +94,9 @@
             },
             {
                 "image": "https://github.com/akshay-k-a-dev/campus-chapter/blob/dev/src/assets/images/memories/foss1.jpg?raw=true"
+            },
+            {
+                "image": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/memories/foss3.jpg"
             }
         ],
         "row2": [
@@ -102,6 +105,12 @@
             },
             {
                 "image": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/memories/prep.jpg"
+            },
+            {
+                "image": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/memories/foss2.jpg"
+            },
+            {
+                "image": "https://raw.githubusercontent.com/akshay-k-a-dev/campus-chapter/refs/heads/dev/src/assets/images/memories/foss4.jpg"
             }
         ]
     },
